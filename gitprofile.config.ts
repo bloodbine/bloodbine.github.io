@@ -16,7 +16,7 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 10, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
@@ -94,20 +94,20 @@ const CONFIG = {
     'Lua'
   ],
   experiences: [
-    // {
-    //   company: 'Company Name',
-    //   position: 'Position',
-    //   from: 'September 2021',
-    //   to: 'Present',
-    //   companyLink: 'https://example.com',
-    // },
-    // {
-    //   company: 'Company Name',
-    //   position: 'Position',
-    //   from: 'July 2019',
-    //   to: 'August 2021',
-    //   companyLink: 'https://example.com',
-    // },
+    {
+      company: 'IBL Arma Community',
+      position: 'Mod Developer',
+      from: '2023',
+      to: 'Present',
+      companyLink: 'https://www.blacklegiongaming.com/',
+    },
+    {
+      company: 'Project ZLife',
+      position: 'Mod Developer',
+      from: '2024',
+      to: 'Present',
+      companyLink: '',
+    },
   ],
   certifications: [
     {
@@ -119,39 +119,19 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: '42 Heilbronn',
+      degree: 'Software Engineering',
+      from: '2022',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Szalézi Szent Ferenc Gimnázium',
+      degree: 'High School',
+      from: '2018',
+      to: '2022',
     },
   ],
-  publications: [
-    // {
-    //   title: 'Publication Title',
-    //   conferenceName: '',
-    //   journalName: 'Journal Name',
-    //   authors: 'John Doe, Jane Smith',
-    //   link: 'https://example.com',
-    //   description:
-    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    // },
-    // {
-    //   title: 'Publication Title',
-    //   conferenceName: 'Conference Name',
-    //   journalName: '',
-    //   authors: 'John Doe, Jane Smith',
-    //   link: 'https://example.com',
-    //   description:
-    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    // },
-  ],
-  // Display articles from your medium or dev account. (Optional)
+  publications: [],
   blog: {
     source: 'dev', // medium | dev
     username: '', // to hide blog section, keep it empty
@@ -170,7 +150,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: true,
+    disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -229,12 +209,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
-
+  footer: ``,
   enablePWA: true,
 };
 
