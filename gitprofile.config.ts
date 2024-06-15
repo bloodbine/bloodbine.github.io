@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'bloodbine.github.io/src/assets/Pásztor-Gergely-CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '/src/assets/Pásztor-Gergely-CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C',
