@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      '/src/assets/Pásztor-Gergely-CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '/assets/Pásztor-Gergely-CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C',
