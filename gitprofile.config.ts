@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 10, // How many projects to display.
@@ -25,7 +25,17 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+          'bloodbine/solong3D',
+          'bloodbine/solong',
+          'bloodbine/minisHell',
+          'bloodbine/IRC',
+          'bloodbine/Inception',
+          'bloodbine/42CPP',
+          'bloodbine/libft',
+          'bloodbine/philosophers',
+          'bloodbine/pipex'
+        ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -48,6 +58,30 @@ const CONFIG = {
         //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
         //   link: 'https://example.com',
         // },
+        {
+          title: 'Arma 3 E-10M',
+          description:
+            'Blaster rifle, inspired by the Andor series, with a functional ammunition counter and scope',
+          imageUrl:
+            'https://bloodbine.github.io/e10m.png',
+          link: '',
+        },
+        {
+          title: 'Arma 3 T-7',
+          description:
+            'Ion Disruptor, with a custom chargeup mechanic and scripted damage logic',
+          imageUrl:
+            'https://bloodbine.github.io/t7.png',
+          link: '',
+        },
+        {
+          title: 'Arma 3 TX-225',
+          description:
+            'Hover tank, with 4 working cannons, 3 man crew, full animations and the possibility of carrying 14 passengers',
+          imageUrl:
+            'https://bloodbine.github.io/tx225.png',
+          link: '',
+        },
       ],
     },
   },
@@ -86,14 +120,24 @@ const CONFIG = {
     'C',
     'C++',
     'CSS',
-    'HTML',
     'Python',
+    'HTML',
     'Blender',
     'Godot',
     'Unity',
-    'Lua'
+    'Lua',
+    'Substance Painter',
+    'MQTT',
+    'Protopie'
   ],
   experiences: [
+    {
+      company: 'Audi Sport Gmbh',
+      position: 'Software Engineering Intern',
+      from: '2025/03/15',
+      to: '2025/09/15',
+      companyLink: 'https://audi.de/',
+    },
     {
       company: 'IBL Arma Community',
       position: 'Mod Developer',
@@ -122,7 +166,7 @@ const CONFIG = {
       institution: '42 Heilbronn',
       degree: 'Software Engineering',
       from: '2022',
-      to: 'Present',
+      to: '2025',
     },
     {
       institution: 'Szalézi Szent Ferenc Gimnázium',
