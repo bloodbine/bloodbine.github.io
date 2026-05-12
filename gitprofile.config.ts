@@ -34,7 +34,8 @@ const CONFIG = {
           'bloodbine/42CPP',
           'bloodbine/libft',
           'bloodbine/philosophers',
-          'bloodbine/pipex'
+          'bloodbine/pipex',
+          'bloodbine/scop'
         ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
@@ -80,6 +81,14 @@ const CONFIG = {
             'Hover tank, with 4 working cannons, 3 man crew, full animations and the possibility of carrying 14 passengers',
           imageUrl:
             'https://bloodbine.github.io/tx225.png',
+          link: '',
+        },
+        {
+          title: 'Arma 3 Beviin-24',
+          description:
+            'Mandalorian marksman rifle, with a variable ammunition system, allowing the user to change intensity of the shots on the fly',
+          imageUrl:
+            'https://bloodbine.github.io/beviin.png',
           link: '',
         },
       ],
